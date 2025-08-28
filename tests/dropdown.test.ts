@@ -26,14 +26,17 @@ test('Select drop down', async ({ page }) => {
       await page.waitForTimeout(2000);
 })
 
-test.only('selectTreeSelect',async({page})=>{
-    await page.goto('https://www.lambdatest.com/selenium-playground/jquery-dropdown-search-demo');
+test.only('selectTreeSelect',async({page}, testInfo)=>{
+
+    console.log("Title: ", testInfo.title)
+    await page.goto('https://www.lambdatest.com/selenium-playground/jquery-dropdown-search-demo')
     // await page.pause()
 
     await page.selectOption('id=country',{
         label: 'India'
     })    
      await page.waitForTimeout(2000);
+    console.log(testInfo.status)
     
 })
   

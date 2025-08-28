@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 2
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "reporter": [
@@ -43,7 +43,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 2
+          "actualWorkers": 1
         },
         "id": "chromium",
         "name": "chromium",
@@ -59,7 +59,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 2
+          "actualWorkers": 1
         },
         "id": "firefox",
         "name": "firefox",
@@ -75,7 +75,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 2
+          "actualWorkers": 1
         },
         "id": "webkit",
         "name": "webkit",
@@ -96,14 +96,14 @@
   },
   "suites": [
     {
-      "title": "loginwithcapabilities.test.ts",
-      "file": "loginwithcapabilities.test.ts",
+      "title": "dropdown.test.ts",
+      "file": "dropdown.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "login test",
-          "ok": false,
+          "title": "selectTreeSelect",
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -116,149 +116,42 @@
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
-                  "status": "timedOut",
-                  "duration": 30269,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
+                  "status": "passed",
+                  "duration": 13578,
+                  "errors": [],
+                  "stdout": [
                     {
-                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                    }
-                  ],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-08-28T23:19:43.637Z",
-                  "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "D:\\Typescript\\playwright_typescript\\test-results\\loginwithcapabilities-login-test-chromium\\test-failed-1.png"
+                      "text": "Title:  selectTreeSelect\n"
                     },
                     {
-                      "name": "error-context",
-                      "contentType": "text/markdown",
-                      "path": "D:\\Typescript\\playwright_typescript\\test-results\\loginwithcapabilities-login-test-chromium\\error-context.md"
-                    }
-                  ]
-                }
-              ],
-              "status": "unexpected"
-            }
-          ],
-          "id": "119ff4e327289afb06f7-d5add5d1cf14024aeaab",
-          "file": "loginwithcapabilities.test.ts",
-          "line": 4,
-          "column": 5
-        },
-        {
-          "title": "login test",
-          "ok": false,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
-                  "status": "timedOut",
-                  "duration": 30400,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
-                    {
-                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      "text": "passed\n"
                     }
                   ],
-                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-28T23:19:43.918Z",
-                  "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "D:\\Typescript\\playwright_typescript\\test-results\\loginwithcapabilities-login-test-firefox\\test-failed-1.png"
-                    },
-                    {
-                      "name": "error-context",
-                      "contentType": "text/markdown",
-                      "path": "D:\\Typescript\\playwright_typescript\\test-results\\loginwithcapabilities-login-test-firefox\\error-context.md"
-                    }
-                  ]
-                }
-              ],
-              "status": "unexpected"
-            }
-          ],
-          "id": "119ff4e327289afb06f7-cb3a82cab7353337fdb7",
-          "file": "loginwithcapabilities.test.ts",
-          "line": 4,
-          "column": 5
-        },
-        {
-          "title": "login test",
-          "ok": false,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [
-                {
-                  "workerIndex": 2,
-                  "parallelIndex": 0,
-                  "status": "timedOut",
-                  "duration": 30016,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
-                    {
-                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                    }
-                  ],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-08-28T23:20:17.209Z",
+                  "startTime": "2025-08-28T23:38:15.361Z",
                   "annotations": [],
                   "attachments": []
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
-          "id": "119ff4e327289afb06f7-3127dccc4a3cc63ec08b",
-          "file": "loginwithcapabilities.test.ts",
-          "line": 4,
-          "column": 5
+          "id": "f07a5f1725d716cfd55e-8b3fbbfa0d65ebd27b4e",
+          "file": "dropdown.test.ts",
+          "line": 29,
+          "column": 6
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-08-28T23:19:41.224Z",
-    "duration": 66116.75700000001,
-    "expected": 0,
+    "startTime": "2025-08-28T23:38:13.080Z",
+    "duration": 20011.708000000002,
+    "expected": 1,
     "skipped": 0,
-    "unexpected": 3,
+    "unexpected": 0,
     "flaky": 0
   }
 }
