@@ -1,4 +1,5 @@
-import {test, expect} from '../base/pomfixture.test'
+// import {test, expect} from '../base/pomfixture.test' //for server runs
+import {test, expect} from '@playwright/test' //for local runs
 
 test('login test', async({page})=>{
 
