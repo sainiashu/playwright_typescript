@@ -6,6 +6,12 @@ export default class LoginPage{
 
     }
 
+    async login(email, password){
+       await this.enterEmail(email)
+       await this.enterPassword(password)
+        await this.clickLogin()
+    }
+
     async enterEmail(email : string){
         await this.page.locator("id=Email").fill(email)
     }

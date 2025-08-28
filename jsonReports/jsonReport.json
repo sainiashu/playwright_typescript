@@ -102,7 +102,7 @@
       "line": 0,
       "specs": [
         {
-          "title": "Login Test 02",
+          "title": "Add to cart test_03",
           "ok": true,
           "tags": [],
           "tests": [
@@ -117,12 +117,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 6344,
+                  "duration": 10524,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-28T16:48:28.944Z",
+                  "startTime": "2025-08-28T17:36:52.995Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -130,9 +130,9 @@
               "status": "expected"
             }
           ],
-          "id": "5562f48897df24eb67b8-a440cb34aa675f98d1c9",
+          "id": "5562f48897df24eb67b8-d760d43b3f4faabde46b",
           "file": "pomtests/addToCart.test.ts",
-          "line": 24,
+          "line": 41,
           "column": 6
         }
       ]
@@ -140,8 +140,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-08-28T16:48:26.554Z",
-    "duration": 11330.286,
+    "startTime": "2025-08-28T17:36:50.665Z",
+    "duration": 18396.614,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

@@ -2,6 +2,8 @@ import {test} from '@playwright/test'
 import LoginPage from '../../pages/login.test'
 import RegisterPage from '../../pages/register.test'
 import HomePage from '../../pages/homepage.test'
+import Books from '../../pages/books.test'
+import Cart from '../../pages/cart.test'
 
 
 const email= 'Demo4.Tester@test.test'
@@ -21,7 +23,7 @@ test('Register User 01', async({page, baseURL})=>{
     await register.clickRegisterButton()
 })
 
-test.only('Login Test 02', async({page,baseURL})=>{
+test('Login Test 02', async({page,baseURL})=>{
 
     const loginPage  = new LoginPage(page)
     const homePage = new HomePage(page)
@@ -34,4 +36,26 @@ test.only('Login Test 02', async({page,baseURL})=>{
 
     await homePage.clickExcellentCheckBox()
     await homePage.verifyExcellentIsChecked()
+})
+
+test.only('Add to cart test_03',async({page, baseURL})=>{
+    
+    await page.goto(`${baseURL}login`)
+    
+    const loginPage = new LoginPage(page)
+    const booksPage = new Books(page) 
+    const cartPage = new Cart(page)
+    const homePage= new HomePage(page)
+
+    await loginPage.login(email,password)
+    await homePage.ClickOnBookSTab()
+    await booksPage.clickOnAddToCart()
+    await booksPage.clickOnShoppingCartLink()
+    await cartPage.clickOnTermAndConditionCheckBox()
+    await cartPage.clickOnCheckOut()
+    await homePage.clickLogout()
+
+
+     
+
 })
