@@ -96,13 +96,13 @@
   },
   "suites": [
     {
-      "title": "uploaddownload.test.ts",
-      "file": "uploaddownload.test.ts",
+      "title": "pomtests\\addToCart.test.ts",
+      "file": "pomtests/addToCart.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "upload file",
+          "title": "Login Test 02",
           "ok": true,
           "tags": [],
           "tests": [
@@ -117,12 +117,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 6769,
+                  "duration": 6344,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-28T04:31:59.905Z",
+                  "startTime": "2025-08-28T16:48:28.944Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -130,9 +130,9 @@
               "status": "expected"
             }
           ],
-          "id": "a91e2c3aed863121b776-684cd4c7fd69057a9327",
-          "file": "uploaddownload.test.ts",
-          "line": 28,
+          "id": "5562f48897df24eb67b8-a440cb34aa675f98d1c9",
+          "file": "pomtests/addToCart.test.ts",
+          "line": 24,
           "column": 6
         }
       ]
@@ -140,8 +140,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-08-28T04:31:58.113Z",
-    "duration": 10447.487,
+    "startTime": "2025-08-28T16:48:26.554Z",
+    "duration": 11330.286,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

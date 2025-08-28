@@ -9,7 +9,7 @@ test('Interact with frames', async({page})=>{
 
     // await myFrame?.fill()
     await myFrame?.locator("input[name='fname']").fill("Demo");
-    await page.waitForTimeout(5000)
+    await page.waitForTimeout(1000)
     await myFrame?.locator("input[name='lname']").fill("User");
     await page.waitForTimeout(2000)
 
