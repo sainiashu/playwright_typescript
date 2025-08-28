@@ -22,6 +22,7 @@ test('test Sum', async({page})=>{
 
 })
 
+
 test.only('CheckBox test', async({page})=>{
     await page.goto('https://www.lambdatest.com/selenium-playground/checkbox-demo');
 

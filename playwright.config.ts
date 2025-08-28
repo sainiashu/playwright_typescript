@@ -12,7 +12,8 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: './tests',
+  // testMatch: './tests/pomtests/addToCartUsingFixture.test.ts',
+   testDir: './tests',
   // testDir: './pomtest/',
   /* Run tests in files in parallel */
   fullyParallel: true,
