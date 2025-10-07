@@ -12,7 +12,7 @@ test('Alert 1', async({page})=>{
         await page.getByRole('paragraph').filter({hasText:'JavaScript Alerts'}).getByRole('button').click();
 })
 
-test('Alert 2',async({page})=>{
+test.only('Alert 2',async({page})=>{
     await page.goto('https://www.lambdatest.com/selenium-playground/javascript-alert-box-demo')
 
     page.on('dialog',async(alert)=>{
@@ -36,6 +36,8 @@ test('Alert Promp',async({page})=>{
     page.on('dialog',async(alert)=>{
         alert.accept("Demo");
     })
+
+
 
     await page
         .getByRole('paragraph')

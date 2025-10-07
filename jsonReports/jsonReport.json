@@ -96,13 +96,13 @@
   },
   "suites": [
     {
-      "title": "dropdown.test.ts",
-      "file": "dropdown.test.ts",
+      "title": "uploaddownload.test.ts",
+      "file": "uploaddownload.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "selectTreeSelect",
+          "title": "upload file",
           "ok": true,
           "tags": [],
           "tests": [
@@ -117,19 +117,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 13578,
+                  "duration": 7449,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Title:  selectTreeSelect\n"
-                    },
-                    {
-                      "text": "passed\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-08-28T23:38:15.361Z",
+                  "startTime": "2025-10-07T20:12:54.263Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -137,8 +130,8 @@
               "status": "expected"
             }
           ],
-          "id": "f07a5f1725d716cfd55e-8b3fbbfa0d65ebd27b4e",
-          "file": "dropdown.test.ts",
+          "id": "a91e2c3aed863121b776-684cd4c7fd69057a9327",
+          "file": "uploaddownload.test.ts",
           "line": 29,
           "column": 6
         }
@@ -147,8 +140,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-08-28T23:38:13.080Z",
-    "duration": 20011.708000000002,
+    "startTime": "2025-10-07T20:12:51.985Z",
+    "duration": 12371.339,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

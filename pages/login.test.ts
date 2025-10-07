@@ -1,10 +1,14 @@
-import {test, Page} from '@playwright/test'
+ import {test, Page} from '@playwright/test'
 
 export default class LoginPage{
 
     constructor(public page: Page){
 
     }
+
+
+
+
 
     async login(email, password){
        await this.enterEmail(email)

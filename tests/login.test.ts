@@ -7,7 +7,7 @@ test('login test', async({page})=>{
     // await page.pause();
      await page.getByRole('link',{name:'Log in'}).click();
      await page.getByRole('textbox',{name:'Email'}).fill('Demo1.Tester@test.test');
-     await page.getByRole('textbox',{name: 'Password'}).fill('Tester@1236')
+     await page.getByRole('textbox',{name: 'Password'}).fill('Tester@123')
      await page.getByRole('button',{name:'Log in'}).click();
-    
+
 })

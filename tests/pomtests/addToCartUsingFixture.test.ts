@@ -24,6 +24,8 @@ test.describe("Register New User and Add To cart", async () => {
         await registerPage.clickRegisterButton()
     })
 
+
+
     test('Login Test 02', async ({ page, baseURL,loginPage,homePage }) => {
 
         // const loginPage = new LoginPage(page)

@@ -13,6 +13,10 @@ test('Test 1 pop window',async({page})=>{
     console.log(newWindow);
 })
 
+
+
+
+
 test.only('Multiple Page',async({page})=>{
     await page.goto('https://www.lambdatest.com/selenium-playground/window-popup-modal-demo');
 
